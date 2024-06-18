@@ -1,0 +1,94 @@
+.section {
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkboxGroup label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  
+  .submitButton {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #004494;
+  }
+  
+  .loginPrompt {
+    text-align: center;
+    font-size: 0.875em;
+    margin-top: 10px;
+  }
+  
+  .loginPrompt a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .loginPrompt a:hover {
+    text-decoration: underline;
+  }
+  
